@@ -1,0 +1,34 @@
+01) What is Jenkins pipeline?
+- Jenkins pipeline is a collection of plugins which supports implementing and integrating continuous delivery
+pipelines into Jenkins. A continuous delivery pipeline is an automated expression of your process for getting software
+from version control right through to your users and customers.
+
+02) What scripting language is Jenkins pipeline syntax based on?
+- Groovy (java-language)
+
+03) What are the ways you can write pipeline in Jenkins?
+A scripted pipeline uses the Groovy (JVM-
+based) language to create a pipeline as code
+-Problems with scripted pipeline:
+• The imbalance between developers’
+experience in Groovy and Jenkins
+creates an impedance mismatch that is
+not easy to remove.
+• Although scripted syntax is powerful
+and expedites the creation of complex
+pipelines, it concurrently makes the
+pipeline hard to read and hard to
+manage
+
+The declarative pipeline follows a relatively
+newer syntax, which narrows the scope of the
+pipeline structure through a pre-defined
+“minimum necessary structure.” On the
+technical front, the declarative syntax follows a
+conditional statement logic that generates a
+series of stages, executed sequentially
+throughout the pipeline’s lifecycle. declarative
+pipelines don’t make use of Groovy code, the
+declarative syntax doesn’t access valuable APIs.
+
+

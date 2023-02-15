@@ -1,0 +1,40 @@
+what are different method to trigger pipeline in jenkins ? 
+a-Trigger builds remotely.
+b-Build periodically.
+c-GitHub webhook trigger.
+d-Poll SCM
+e-Build after other piplines are built.
+f-Build manually.
+
+
+what is the benefit of using master-slave architecture rather than building on master only ?\
+- Produce backups — Obviously, the major utility of master-slave database architecture is its
+ability to provide reliable backups through their chain of slave databases. The slave database
+can be turned off without affecting the master database’s activities. This is because live data
+snapshots will be replicated to the slave database, and data resources will remain intact
+even if the master database fails.
+
+- Scale out the application — When your number of users increases and your app’s usage
+skyrockets, it’s critical to scale out your app so that your audience has a consistent
+experience. By splitting your data load across numerous databases, the master-slave
+database architecture can help you scale out your application.
+
+- Split your work without causing a mess — You can use your slave nodes to collect the
+necessary data and generate a complete report, while the master node pushes new updates
+and features to your application server.
+
+- Top-notch performance — It is extremely fast and fetches data without any issues, imposing
+no restrictions regarding performance and time to load the data.
+
+
+what is different between authorization and authentication ? 
+  - Authentication verifies the identity of a user or service
+  - Authorization determines their access rights
+
+
+what is the benefit of making organization job in jenkins?
+- Organization Folders enable Jenkins to monitor an entire GitHub Organization, Bitbucket
+Team/Project, GitLab organization, or Gitea organization.
+- automatically create new Multibranch Pipelines for repositories which contain branches
+and pull requests containing a Jenkinsfile.
+
